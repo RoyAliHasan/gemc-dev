@@ -3,6 +3,7 @@ import React from "react";
 import rhino from "../assets/images/rhino.svg";
 import { useState } from "react";
 import { SearchIcon } from "@heroicons/react/outline";
+import twitter from "../assets/images/twitter.svg";
 
 function Header() {
   const [navbar, setNavbar] = useState(false);
@@ -17,7 +18,26 @@ function Header() {
               <Image src={rhino} alt={"rhino"} className="h-9" />
             </a>
             <div className="flex justify-center items-center ">
-              <SearchIcon className="flex  h-5 w-5  text-white md:hidden " />
+              <Image
+                src={twitter}
+                className="flex  h-5 w-5 ml-3  text-white md:hidden "
+              />
+              <Image
+                src={twitter}
+                className="flex  h-5 w-5 ml-3 text-white md:hidden "
+              />
+              <Image
+                src={twitter}
+                className="flex  h-5 w-5 ml-3  text-white md:hidden "
+              />
+              <Image
+                src={twitter}
+                className="flex  h-5 w-5  ml-3 text-white md:hidden "
+              />
+              <Image
+                src={twitter}
+                className="flex  h-5 w-5 ml-3  text-white md:hidden "
+              />
             </div>
             <div className="md:hidden">
               <button
@@ -85,6 +105,32 @@ function Header() {
         </div>
 
         {/* icons */}
+        <div className=" flex items-end md:visible  ">
+          {/* <SearchIcon className="md:h-6 text-white h-0 md:mr-2 ml-4" />
+          <SearchIcon className="md:h-6 text-white h-0 md:mr-2 ml-4" />
+          <SearchIcon className="md:h-6 text-white h-0 md:mr-2 ml-4" />
+          <SearchIcon className="md:h-6 text-white h-0 ml-4" /> */}
+          <Image
+            src={twitter}
+            className="flex md:h-5  md:w-5  text-white h-0 md:ml-0 md:mr-0 "
+          />
+          <Image
+            src={twitter}
+            className="md:h-5 md:w-5  text-white h-0 md:ml-5 "
+          />
+          <Image
+            src={twitter}
+            className="md:h-5 md:w-5   text-white h-0 md:ml-5 "
+          />
+          <Image
+            src={twitter}
+            className="md:h-5 md:w-5   text-white h-0 md:ml-5 "
+          />
+          <Image
+            src={twitter}
+            className="md:h-5 md:w-5   text-white h-0 md:ml-5 "
+          />
+        </div>
       </div>
     </nav>
   );
