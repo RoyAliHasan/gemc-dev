@@ -4,7 +4,7 @@ import landmark from "../assets/images/Logomark.svg";
 import discord from "../assets/images/discord.svg";
 function Buttons() {
   return (
-    <div className="flex  items-center justify-between mt-10">
+    <div className="flex  items-center justify-center mt-10">
       <button className="flex items-center justify-center   bg-gradient-to-r from-indigo-500 via-blue-500 to-blue-900 p-3 md:p-5 md:ml-8  rounded-2xl text-white text-sm sm:text-xl">
         <Image className="mr-2" src={landmark} alt="landmark" />
         MINTING SOON
