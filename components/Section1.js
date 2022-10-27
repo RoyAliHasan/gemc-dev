@@ -3,7 +3,7 @@ import React from "react";
 import videoPlayer from "../assets/videos/videoPlayer.jpg";
 function Section1() {
   return (
-    <section>
+    <section className=" relative -z-10">
       <div className="flex sm:flex-row  items-center flex-col   ">
         {/* paragraph */}
         <div className="basic-1/2 mt-5 ml-8 p-8  ">
@@ -12,7 +12,7 @@ function Section1() {
           </h1>
           <p className="mt-4 font-mono	">The new #1 Solana NFT Community </p>
           <p className="mt-2">
-            GEMC is a private members collective of 10,000 dedicated NFT's.
+            GEMC is a private members collective of 10,000 dedicated NFTs.
             Created by our famous artist! GEMC is doing Epic stuff for the NFT
             community.
           </p>

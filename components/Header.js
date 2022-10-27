@@ -8,13 +8,13 @@ function Header() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full  shadow  ">
-      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+    <nav className="w-full  shadow -z-10  ">
+      <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8 -z-10">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="javascript:void(0)">
               {/* <h2 className="text-2xl font-bold text-white">LOGO</h2> */}
-              <Image src={rhino} className="h-9" />
+              <Image src={rhino} alt={"rhino"} className="h-9" />
             </a>
             <div className="flex justify-center items-center ">
               <SearchIcon className="flex  h-5 w-5  text-white md:hidden " />

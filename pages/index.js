@@ -1,9 +1,7 @@
 import Head from "next/head";
 import Buttons from "../components/Buttons";
 import Header from "../components/Header";
-import Header2 from "../components/Header2";
 import Section1 from "../components/Section1";
-// import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -17,7 +15,6 @@ export default function Home() {
       <Section1 />
       <Buttons />
 
-      {/* <Header2/> */}
     </div>
   );
 }
