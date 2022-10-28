@@ -1,12 +1,12 @@
 import Image from "next/image";
-import  {useState} from "react"
+import { useState } from "react";
 import React from "react";
 import rhino from "../assets/images/rhino.svg";
 import twitter from "../assets/images/twitter.svg";
 import discord from "../assets/images/discord.svg";
-import instagram from "../assets/images/instagram.svg"
-import scale from "../assets/images/scale.svg"
-import fire from "../assets/images/fire.svg"
+import instagram from "../assets/images/instagram.svg";
+import scale from "../assets/images/scale.svg";
+import fire from "../assets/images/fire.svg";
 function Header() {
   const [navbar, setNavbar] = useState(false);
 
@@ -19,14 +19,14 @@ function Header() {
               {/* <h2 className="text-2xl font-bold text-white">LOGO</h2> */}
               <Image src={rhino} alt={"rhino"} className="h-9" />
             </a>
-            <div className="flex justify-center items-center ">
+            <div className="flex  cursor-pointer justify-center items-center ">
               <Image
                 src={twitter}
-                className="flex  h-5 w-5 ml-3  text-white md:hidden "
+                className="flex  cursor-pointer h-5 w-5 ml-3  text-white md:hidden "
               />
               <Image
                 src={discord}
-                className="flex  h-5 w-5 ml-3 text-white md:hidden "
+                className="flex cursor-pointer  h-5 w-5 ml-3 text-white md:hidden "
               />
               <Image
                 src={instagram}
@@ -34,11 +34,11 @@ function Header() {
               />
               <Image
                 src={scale}
-                className="flex  h-5 w-5  ml-3 text-white md:hidden "
+                className="flex  cursor-pointer h-5 w-5  ml-3 text-white md:hidden "
               />
               <Image
                 src={fire}
-                className="flex  h-5 w-5 ml-3  text-white md:hidden "
+                className="flex  cursor-pointer h-5 w-5 ml-3  text-white md:hidden "
               />
             </div>
             <div className="md:hidden">
@@ -108,26 +108,25 @@ function Header() {
 
         {/* icons */}
         <div className=" flex items-end md:visible  ">
-         
           <Image
             src={twitter}
-            className="flex md:h-5  md:w-5  text-white h-0 md:ml-0 md:mr-0 "
+            className="flex md:h-5 cursor-pointer md:w-5  text-white h-0 md:ml-0 md:mr-0 "
           />
           <Image
             src={discord}
-            className="md:h-5 md:w-5  text-white h-0 md:ml-5 "
+            className="md:h-5 md:w-5 cursor-pointer text-white h-0 md:ml-5 "
           />
           <Image
             src={instagram}
-            className="md:h-5 md:w-5   text-white h-0 md:ml-5 "
+            className="md:h-5 md:w-5 cursor-pointer  text-white h-0 md:ml-5 "
           />
           <Image
             src={scale}
-            className="md:h-5 md:w-5   text-white h-0 md:ml-5 "
+            className="md:h-5 md:w-5 cursor-pointer  text-white h-0 md:ml-5 "
           />
           <Image
             src={fire}
-            className="md:h-5 md:w-5   text-white h-0 md:ml-5 "
+            className="md:h-5 md:w-5 cursor-pointer  text-white h-0 md:ml-5 "
           />
         </div>
       </div>
