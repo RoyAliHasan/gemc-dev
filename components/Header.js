@@ -19,7 +19,7 @@ function Header() {
               {/* <h2 className="text-2xl font-bold text-white">LOGO</h2> */}
               <Image src={rhino} alt={"rhino"} className="h-9" />
             </a>
-            <div className="flex  cursor-pointer justify-center items-center ">
+            <div className="flex   justify-center items-center ">
               <Image
                 src={twitter}
                 className="flex  cursor-pointer h-5 w-5 ml-3  text-white md:hidden "
