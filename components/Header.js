@@ -1,10 +1,12 @@
 import Image from "next/image";
+import  {useState} from "react"
 import React from "react";
 import rhino from "../assets/images/rhino.svg";
-import { useState } from "react";
-import { SearchIcon } from "@heroicons/react/outline";
 import twitter from "../assets/images/twitter.svg";
-
+import discord from "../assets/images/discord.svg";
+import instagram from "../assets/images/instagram.svg"
+import scale from "../assets/images/scale.svg"
+import fire from "../assets/images/fire.svg"
 function Header() {
   const [navbar, setNavbar] = useState(false);
 
@@ -23,19 +25,19 @@ function Header() {
                 className="flex  h-5 w-5 ml-3  text-white md:hidden "
               />
               <Image
-                src={twitter}
+                src={discord}
                 className="flex  h-5 w-5 ml-3 text-white md:hidden "
               />
               <Image
-                src={twitter}
+                src={instagram}
                 className="flex  h-5 w-5 ml-3  text-white md:hidden "
               />
               <Image
-                src={twitter}
+                src={scale}
                 className="flex  h-5 w-5  ml-3 text-white md:hidden "
               />
               <Image
-                src={twitter}
+                src={fire}
                 className="flex  h-5 w-5 ml-3  text-white md:hidden "
               />
             </div>
@@ -106,28 +108,25 @@ function Header() {
 
         {/* icons */}
         <div className=" flex items-end md:visible  ">
-          {/* <SearchIcon className="md:h-6 text-white h-0 md:mr-2 ml-4" />
-          <SearchIcon className="md:h-6 text-white h-0 md:mr-2 ml-4" />
-          <SearchIcon className="md:h-6 text-white h-0 md:mr-2 ml-4" />
-          <SearchIcon className="md:h-6 text-white h-0 ml-4" /> */}
+         
           <Image
             src={twitter}
             className="flex md:h-5  md:w-5  text-white h-0 md:ml-0 md:mr-0 "
           />
           <Image
-            src={twitter}
+            src={discord}
             className="md:h-5 md:w-5  text-white h-0 md:ml-5 "
           />
           <Image
-            src={twitter}
+            src={instagram}
             className="md:h-5 md:w-5   text-white h-0 md:ml-5 "
           />
           <Image
-            src={twitter}
+            src={scale}
             className="md:h-5 md:w-5   text-white h-0 md:ml-5 "
           />
           <Image
-            src={twitter}
+            src={fire}
             className="md:h-5 md:w-5   text-white h-0 md:ml-5 "
           />
         </div>
