@@ -8,7 +8,7 @@ function Section1() {
         {/* paragraph */}
         <div className="basic-1/2 mt-5 ml-8 p-8  ">
           <h1 className="font-heading-font text-3xl font-bold text-left font-mono		">
-            GRAND ESCAPE MEMBERS CLUB
+            Muhammad Abdullah , Awaiz Liqiat , Sajid Shaikh
           </h1>
           <p className="mt-4 font-mono	">The new #1 Solana NFT Community </p>
           <p className="mt-2">
